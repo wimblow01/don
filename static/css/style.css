@@ -1,0 +1,99 @@
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-family: blackHouse;
+}
+
+h3 {
+    text-align: center;
+    font-family: blackHouse;
+}
+
+body {
+    background-color: rgba(136, 95, 18, 0.89);
+    /* background:no-repeat center/100%  url(../public/foret1.jpg); */
+    margin: 0 auto;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.forms {
+    margin-top: 50px;
+    max-width: 50%;
+}
+
+.text-center {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+input{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.info{
+    max-width: 60%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#merci{
+    font-size: x-large;
+    text-align: center;
+
+}
+
+#donate{
+    font-size: 30px;
+    font-family: blackHouse;
+}
+
+.mini{
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-link {
+    color: antiquewhite;
+    font-size: large;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    color: antiquewhite;
+    font-size: x-large;
+}    
+
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+
+.parrain{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.badge{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 15px;
+    color: rgb(49, 45, 45);
+}

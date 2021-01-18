@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Faites un don {% endblock %}</h1>
+
+
+<div class="container-fluid forms" >
+
+    <form method="post" class="text-center">
+        <div class="col-mb-6">
+            <div class="form-group">
+              
+                <input type="text" name="name"
+                placeholder="Nom" class="form-control"
+                value="{{ request.form['name'] }}">
+            </div>
+        </div>
+        <div class="col-mb-6">
+            <div class="form-group">
+                <input type="text" name="fname"
+                placeholder="Prénom" class="form-control"
+                value="{{ request.form['fname'] }}">
+            </div>
+        </div>
+        <div class="col-mb-6">
+            <div class="form-group">
+                <input type="text" name="adresse"
+                placeholder="Adresse" class="form-control"
+                value="{{ request.form['adresse'] }}">
+            </div>
+        </div>
+        <div class="col-mb-6">
+            <div class="form-group">
+                <input type="text" name="mail"
+                placeholder="Mail" class="form-control"
+                value="{{ request.form['mail'] }}">
+            </div>
+        </div>
+        <div class="col-mb-6">
+            <div class="form-group">
+                <input type="number" name="don" placeholder="Montant libre" class="form-control" value="{{request.form['don']}}">
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" name="accepte" required value="{{ request.form['accepte'] }}">
+            <label for="accepte">J'ai lu et j'accepte les <a href="{{url_for('conditions')}}">conditions</a> </label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Valider</button>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}

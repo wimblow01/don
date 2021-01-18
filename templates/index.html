@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} WoodWork  {% endblock %}</h1>
+    <h3>Sauvez un bucheron, plantez un arbre</h3>
+    <div class='container-fluid'>
+        <div class='text-center'>
+            <img src="../static/public/logo5.png" class="img center-block" id="logo" alt="logo association">
+        </div>
+    </div>
+
+    <div class="text-center">
+        <span id="donate">A ce jour nous avons replanté {{donate['sum']}} arbres</span>
+    </div>
+
+{% endblock %}
